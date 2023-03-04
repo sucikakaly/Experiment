@@ -187,6 +187,10 @@ body {
   padding: 0.75rem;
 }
 
+.card:hover {
+  background-color: gray;
+}
+
 .card-head1 {
   padding: 1.5rem 0rem 1rem 0.5rem;
   background-color: #f39c12;
