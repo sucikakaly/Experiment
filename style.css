@@ -52,11 +52,16 @@ body {
   border-radius: 15rem;
 }
 
+#main-menu {
+  background-color: #222d32;
+}
+
 #menus {
   display: flex;
+  position: sticky;
   color: white;
   background-color: #222d32;
-  width: 240px;
+  width: 230px;
   height: 60px;
   gap: 0.5rem;
 }
@@ -95,7 +100,7 @@ body {
 .menu-dashboard {
   display: flex;
   color: white;
-  background-color: #1a2226;
+  background-color: #1e282c;
   width: 216px;
   padding: 0.75rem;
   font-family: Helvetica;
@@ -157,35 +162,42 @@ body {
 #heading {
   font-family: sans-serif;
   font-size: 24px;
-  padding: 0.75rem;
   background-color: #ecf0f5;
+}
+
+.title-heading {
+  padding: 0.75rem 0rem 0rem 0.75rem;
+}
+
+.card-info p {
+  padding-left: 10rem;
 }
 
 .cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 2rem;
-  padding: 1rem 0rem;
+  gap: 1rem;
+  padding: 0.2rem 0rem;
   font-family: sans-serif;
 }
 
 .card {
-  border: 1px solid black;
-  border-radius: 5px;
-  overflow: hidden;
+  border: 0.2px solid #ecf0f5;
+  border-radius: 10px;
+  padding: 0.75rem;
 }
 
 .card-head1 {
-  padding: 1.5rem 0.6rem 1.5rem 0.5rem;
+  padding: 1.5rem 0rem 1rem 0.5rem;
   background-color: #f39c12;
   color: white;
-  font-size: 20px;
+  font-size: 24px;
   display: flex;
   gap: 1rem;
 }
 
 .card-head1 img {
-  padding-left: 0.75rem;
+  padding-left: 0.5rem;
 }
 
 .card-head1 span {
@@ -194,22 +206,75 @@ body {
 }
 
 .card-head2 {
-  padding: 2rem 1rem;
+  padding: 1.5rem 0.8rem 1rem 0.5rem;
   background-color: #00c0ef;
   color: white;
+  font-size: 24px;
   display: flex;
+  gap: 1rem;
+}
+
+.card-head2 img {
+  padding-left: 0.5rem;
+}
+
+.card-head2 span {
+  font-size: 14px;
+  font-weight: normal;
 }
 
 .card-head3 {
-  padding: 2rem 1rem;
+  padding: 1.5rem 0.8rem 1rem 0.5rem;
   background-color: #00a65a;
   color: white;
+  font-size: 24px;
+  display: flex;
+  gap: 1rem;
+}
+
+.card-head3 img {
+  padding-left: 0.5rem;
+}
+
+.card-head3 span {
+  font-size: 14px;
+  font-weight: normal;
 }
 
 .card-head4 {
-  padding: 2rem 1rem;
+  padding: 1.5rem 0.6rem 1rem 0.5rem;
   background-color: #f39c12;
   color: white;
+  font-size: 24px;
+  display: flex;
+  gap: 1rem;
+}
+
+.card-head4 img {
+  padding-left: 0.5rem;
+}
+
+.card-head4 span {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.card-head5 {
+  padding: 1.5rem 0.6rem 1rem 0.5rem;
+  background-color: #00c0ef;
+  color: white;
+  font-size: 24px;
+  display: flex;
+  gap: 1rem;
+}
+
+.card-head5 img {
+  padding-left: 0.5rem;
+}
+
+.card-head5 span {
+  font-size: 14px;
+  font-weight: normal;
 }
 
 .card-body ul li {
@@ -222,6 +287,7 @@ body {
   justify-content: space-between;
   font-size: 1rem;
   font-size: 14px;
+  color: #444444;
 }
 
 .uts {
@@ -249,14 +315,78 @@ body {
   font-size: 12px;
 }
 
+.absen {
+  color: #dd4b39;
+}
+
+.pabsen {
+  color: white;
+  background-color: #dd4b39;
+  padding: 2.5px 7px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.ppert {
+  color: white;
+  background-color: #0073b7;
+  padding: 2.5px 7px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.pkel {
+  color: white;
+  background-color: #f39c12;
+  padding: 2.5px 7px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.pquiz {
+  color: white;
+  background-color: #00c0ef;
+  padding: 2.5px 7px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
 .card-info {
   padding: 1rem;
   font-size: 0.9rem;
-  font-size: 12px;
+  font-family: Helvetica;
+  font-size: 11px;
   color: #00a65a;
+  background-color: white;
+  font-weight: 600;
+  padding-left: 0.5rem;
+  padding-top: 1rem;
+}
+
+.card-info p {
+  padding-left: 0.5rem;
+  padding-top: 0.2rem;
+}
+
+.card-body {
+  background-color: white;
 }
 
 .card-info h3 {
   color: #0073b7;
+  padding-left: 0.5rem;
+}
+
+.footer {
+  color: #444453;
+  background-color: white;
+  font-family: Helvetica;
+  font-size: 14px;
+  text-align: center;
+  padding: 1rem;
+  border: 5px gray;
+}
+
+.footer span {
   font-weight: bolder;
 }
