@@ -166,7 +166,7 @@ body {
 }
 
 .title-heading {
-  padding: 0.75rem 0rem 0rem 0.75rem;
+  padding: 0.75rem 0rem 0rem 1rem;
 }
 
 .card-info p {
@@ -177,18 +177,18 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1rem;
-  padding: 0.2rem 0rem;
+  padding: 1rem;
   font-family: sans-serif;
 }
 
 .card {
   border: 0.2px solid #ecf0f5;
-  border-radius: 10px;
-  padding: 0.75rem;
+  border-radius: 5px;
+  overflow: hidden;
 }
 
 .card:hover {
-  background-color: gray;
+  box-shadow: 5px 5px 8px gray;
 }
 
 .card-head1 {
