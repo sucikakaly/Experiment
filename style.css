@@ -188,7 +188,7 @@ body {
 }
 
 .card:hover {
-  box-shadow: 5px 5px 8px gray;
+  box-shadow: 2px 2px 8px gray;
 }
 
 .card-head1 {
