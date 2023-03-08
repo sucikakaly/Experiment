@@ -391,6 +391,11 @@ body {
   border: 5px gray;
 }
 
+.footer a {
+  text-decoration: none;
+  color: blue;
+}
+
 .footer span {
   font-weight: bolder;
 }
